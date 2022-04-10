@@ -9,6 +9,9 @@ Plug 'vim-airline/vim-airline' " airline
 Plug 'vim-airline/vim-airline-themes' " airline
 Plug 'mhinz/vim-startify' " 启动界面
 
-Plug 'vim-scripts/taglist.vim' " tag list
+Plug 'preservim/tagbar' " 替换了taglist
+" Plug 'vim-scripts/taglist.vim' " tag list
+
+Plug 'tpope/vim-surround' " 一个针对成对括号，引号的插件
 
 call plug#end()

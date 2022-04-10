@@ -26,10 +26,11 @@ nnoremap <S-l> :vertical resize +3<CR>
 
 " 新建标签页, 和标签页的移动 按下mapleader键后 按指定顺序的组合键
 nnoremap <leader>t :tabnew<CR>
-nnoremap <leader>gn :tabnext<CR>
-nnoremap <leader>gp :tabprevious<CR>
-nnoremap <leader>gf :tabfirst<CR>
-nnoremap <leader>gl :tablast<CR>
+" nnoremap <leader>tl :tabc<CR>
+" nnoremap <leader>gn :tabn<CR>
+" nnoremap <leader>gp :tabprevious<CR>
+" nnoremap <leader>gf :tabfirst<CR>
+" nnoremap <leader>gl :tablast<CR>
 
 " buffer 的使用
 nnoremap <silent> [b :bprevious<CR>
@@ -42,5 +43,5 @@ nnoremap <C-B> :NERDTreeToggle<CR>
 
 " tag list
 " 注意archlinux 还需安装ctags
-nnoremap <C-T> :TlistToggle<CR>
+nnoremap <C-T> :TagbarToggle<CR>
 

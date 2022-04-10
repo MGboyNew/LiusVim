@@ -63,7 +63,7 @@ set relativenumber
 syntax enable
 
 " 识别颜色
-set t_Co=256
+" set t_Co=256
 
 "高亮显示当前行
 set cursorline
