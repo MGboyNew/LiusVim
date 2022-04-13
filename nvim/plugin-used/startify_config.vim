@@ -1,6 +1,7 @@
 """""""""""""""""""""""""""""""""
 " vim-startify https://codevion.github.io/#!vim/startify.md
 """""""""""""""""""""""""""""""""
+
 "  修改进来的内容
 let g:startify_custom_header = [
    \ '        ___   ___      ___      ___      ___      ___      ___          ___      ___     ___     ___          ',

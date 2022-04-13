@@ -70,3 +70,4 @@ endif
 " 保存折叠,在对特定文件类型操作的时候
 au BufWinLeave *.java,*.py,*.js,*.html,*jsx,*.css silent mkview
 au BufWinEnter *.java,*.py,*.js,*.html,*jsx,*.css silent loadview
+

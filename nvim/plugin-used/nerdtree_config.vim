@@ -25,3 +25,5 @@ let g:NERDTreeIndicatorMapCustom = {
     \ }
 
 
+" 文件目录
+" nnoremap <C-B> :NERDTreeToggle<CR>

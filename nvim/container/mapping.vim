@@ -1,8 +1,8 @@
-""tabp"""""""""""""""""""""""""""""""""
-"""=>全局配置<="""
-let mapleader = "\<space>"
+"""""""""""""""""""""""""""""""""""
+"""=>快件键配置<="""
 """""""""""""""""""""""""""""""""""
 
+let mapleader = "\<space>"
 " 保存和退出
 nnoremap <leader>q :q<CR>
 nnoremap <leader>w :w<CR>
@@ -13,10 +13,11 @@ nnoremap <leader>s :sp<CR>
 nnoremap <leader>vs :vsp<CR>
 
 " 窗口的移动 ctrl j k l
-nnoremap <C-j> <C-W>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-h> <C-W>h
-nnoremap <C-l> <C-W>l
+" nnoremap <leader>jj :sp<CR>  将c-w j换成ctrl-j
+nnoremap <leader>jj <C-W>j
+nnoremap <leader>kk <C-W>k
+nnoremap <leader>hh <C-W>h
+nnoremap <leader>ll <C-W>l
 
 " 窗口大小的修改 Shift + j k h l
 nnoremap <S-j> :resize +3<CR>
@@ -38,10 +39,15 @@ nnoremap <silent> ]b :bnext<CR>
 nnoremap <silent> [bf :bfirst<CR>
 nnoremap <silent> ]bl :blast<CR>
 
-" 文件目录
-nnoremap <C-B> :NERDTreeToggle<CR>
 
-" tag list
-" 注意archlinux 还需安装ctags
+"""""""""""""""""""""""""""""""""""
+"""=>插件<="""
+"""""""""""""""""""""""""""""""""""
+" 
+
+" nertree
+" nnoremap <C-B> :NERDTreeToggle<CR>
+
+" tagbar 注意archlinux 还需安装ctags
 nnoremap <C-T> :TagbarToggle<CR>
 
