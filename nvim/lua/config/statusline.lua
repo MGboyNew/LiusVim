@@ -4,6 +4,7 @@ local api = vim.api
 
 local M = {}
 
+-- 获取元素
 local getColors = function()
 	return {
 		['STNormalFlatMD'] = { guifg= '#32374d', guibg='#1b1e2b'},
@@ -23,6 +24,7 @@ local getColors = function()
 	}
 end
 
+-- 获取
 local getModes = function()
 	return {
 		['n']   = { color = '%#STNormalMD#', val = ' NORMAL ' },
@@ -54,6 +56,7 @@ local getModes = function()
 	}
 end
 
+-- 获取模式
 local function get_mode()
 	local mode = api.nvim_get_mode().mode
 	return getModes()[mode] or { val = 'Unknown mode: ', color = '%#CursorLine#' }
@@ -82,6 +85,7 @@ local function get_infos(bufnr)
 	return string.format('%s %s:%s | %s | %s ', ft, row, col, percent, num_lines)
 end
 
+-- 获取文件名
 local function get_filename(bufnr)
 	local fname = api.nvim_buf_get_name(bufnr)
 	if #fname == 0 then
@@ -91,12 +95,14 @@ local function get_filename(bufnr)
 	return vim.fn.fnamemodify(fname, ':~')
 end
 
+-- 清理
 function M.clear()
 	local width = api.nvim_win_get_width(0)
 	local dashes = string.rep('―', width)
 	vim.wo.statusline = '%#VertSplit#'..dashes
 end
 
+-- 通过这个来定义主题
 local function format_status(mode, filename, git, infos)
 	local left_side = mode.color..mode.val..'%#Normal# '..filename
 	local right_side =mode.color:gsub('MD', 'Info')..git..infos..'%#Normal#'
@@ -109,6 +115,7 @@ local function format_status(mode, filename, git, infos)
 end
 
 function M.update()
+
 	local bufnr = api.nvim_get_current_buf()
 	if api.nvim_buf_get_option(bufnr, 'ft') == 'NvimTree' then return ' ' end
 
