@@ -1,7 +1,7 @@
 """""""""""""""""""""""""""""
 """"""""=设置主题=<""""""""""
 """""""""""""""""""""""""""""
-let g:tokyonight_style = "day" " day 的时候时白色,storm 偏紫蓝色,night 是暗颜色
+let g:tokyonight_style = "storm" " day 的时候时白色,storm 偏紫蓝色,night 是暗颜色
 let g:tokyonight_italic_functions = 1
 let g:tokyonight_sidebars = [ "qf", "vista_kind", "terminal", "packer" ]
 

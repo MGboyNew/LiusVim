@@ -22,3 +22,4 @@ Plug 'folke/which-key.nvim'                            " 快捷键
 Plug 'vim-scripts/taglist.vim'                         " tag list
 Plug 'preservim/nerdtree'                              " 文件树
 Plug 'mhinz/vim-startify'                              " 启动界面
+Plug 'lambdalisue/fern.vim'

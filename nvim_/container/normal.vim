@@ -71,3 +71,6 @@ endif
 au BufWinLeave *.java,*.py,*.js,*.html,*jsx,*.css silent mkview
 au BufWinEnter *.java,*.py,*.js,*.html,*jsx,*.css silent loadview
 
+
+" set fillchars=vert:\|
+

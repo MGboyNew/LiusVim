@@ -34,10 +34,10 @@ nnoremap <leader>t :tabnew<CR>
 " nnoremap <leader>gl :tablast<CR>
 
 " buffer 的使用
-nnoremap <silent> [b :bprevious<CR>
-nnoremap <silent> ]b :bnext<CR>
-nnoremap <silent> [bf :bfirst<CR>
-nnoremap <silent> ]bl :blast<CR>
+" nnoremap <silent> [b :bprevious<CR>
+" nnoremap <silent> ]b :bnext<CR>
+" nnoremap <silent> [bf :bfirst<CR>
+" nnoremap <silent> ]bl :blast<CR>
 
 
 """""""""""""""""""""""""""""""""""
@@ -50,4 +50,10 @@ nnoremap <silent> ]bl :blast<CR>
 
 " tagbar 注意archlinux 还需安装ctags
 nnoremap <C-T> :TagbarToggle<CR>
+
+" fzf mapping
+nnoremap <leader><leader>m :Maps<CR>
+
+nnoremap <leader><leader>b :Buffers<CR>
+nnoremap <C-F> :Files<CR>
 
