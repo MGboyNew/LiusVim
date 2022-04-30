@@ -1,6 +1,8 @@
-vim.g.mapleader = ' '
+-- 自动缩进的策略为 plugin
+vim.o.filetype = "plugin"
 
-
+-- 是否开启高亮搜索
+vim.o.hlsearch = true
 
 -- 显示行号
 vim.o.relativenumber = true
@@ -84,3 +86,4 @@ vim.cmd [[au BufWinLeave *.java,*.py,*.js,*.html,*jsx,*.css silent mkview]]
 vim.cmd [[au BufWinEnter *.java,*.py,*.js,*.html,*jsx,*.css silent loadview]]
 
 vim.cmd [[let g:NERDTreeStatusline = '%#NonText#']]
+

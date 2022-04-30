@@ -29,11 +29,15 @@ require('telescope').setup{
   }
 }
 
-local map = vim.api.nvim_set_keymap
-local opts = { noremap = true, silent = true }
 
-map('n', '<Leader>ff', ':lua require("telescope.builtin").find_files()<CR>', opts)
-map('n', '<Leader>fg', ':lua require("telescope.builtin").live_grep()<CR>', opts)
-map('n', '<Leader>fb', ':lua require("telescope.builtin").buffers()<CR>', opts)
-map('n', '<Leader>fh', ':lua require("telescope.builtin").help_tags()<CR>', opts)
+--" Find files using Telescope command-line sugar.
+vim.cmd [[nnoremap <leader>ff <cmd>Telescope find_files<cr>]]
+vim.cmd [[nnoremap <leader>fg <cmd>Telescope live_grep<cr>]]
+vim.cmd [[nnoremap <leader>fb <cmd>Telescope buffers<cr>]]
+vim.cmd [[nnoremap <leader>fh <cmd>Telescope help_tags<cr>]]
 
+--" Using Lua functions
+vim.cmd [[nnoremap <leader>ff <cmd>lua require('telescope.builtin').find_files()<cr>]]
+vim.cmd [[nnoremap <leader>fg <cmd>lua require('telescope.builtin').live_grep()<cr>]]
+vim.cmd [[nnoremap <leader>fb <cmd>lua require('telescope.builtin').buffers()<cr>]]
+vim.cmd [[nnoremap <leader>fh <cmd>lua require('telescope.builtin').help_tags()<cr>]]
