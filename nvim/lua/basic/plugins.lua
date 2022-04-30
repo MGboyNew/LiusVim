@@ -46,7 +46,7 @@ packer.startup(
            use "yianwillis/vimcdoc"
            use {'kevinhwang91/nvim-hlslens'}
            use {"ethanholz/nvim-lastplace"}
-           use {"rmagatti/auto-session",}
+           --use {"rmagatti/auto-session",}
            use {"norcalli/nvim-colorizer.lua",}
 
            use { "mbbill/undotree" }

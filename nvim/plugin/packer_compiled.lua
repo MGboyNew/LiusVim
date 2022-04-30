@@ -79,11 +79,6 @@ _G.packer_plugins = {
     path = "/home/lius/.local/share/nvim/site/pack/packer/start/auto-pairs",
     url = "https://github.com/jiangmiao/auto-pairs"
   },
-  ["auto-session"] = {
-    loaded = true,
-    path = "/home/lius/.local/share/nvim/site/pack/packer/start/auto-session",
-    url = "https://github.com/rmagatti/auto-session"
-  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/home/lius/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
