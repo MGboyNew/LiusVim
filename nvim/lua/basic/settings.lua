@@ -82,8 +82,8 @@ vim.cmd [[set noswapfile]]
 
 
 -- 自动加载
-vim.cmd [[au BufWinLeave *.java,*.py,*.js,*.html,*jsx,*.css silent mkview]]
-vim.cmd [[au BufWinEnter *.java,*.py,*.js,*.html,*jsx,*.css silent loadview]]
+vim.cmd [[au BufWinLeave *.java,*.py,*.js,*.html,*jsx,*.css,*.lua silent mkview]]
+vim.cmd [[au BufWinEnter *.java,*.py,*.js,*.html,*jsx,*.css,*.lua silent loadview]]
 
 vim.cmd [[let g:NERDTreeStatusline = '%#NonText#']]
 

@@ -43,10 +43,10 @@ vim.keybinds.gmap('n', '<Leader>hh', '<C-w>h',vim.keybinds.opts)
 vim.keybinds.gmap('n', '<Leader>ll', '<C-w>l',vim.keybinds.opts)
 
 -- 大小调整
-vim.keybinds.gmap('n', '<S-j>', ':resize +3<CR>',vim.keybinds.opts)
-vim.keybinds.gmap('n', '<S-k>', ':resize -3<CR>',vim.keybinds.opts)
-vim.keybinds.gmap('n', '<S-h>', ':vertical resize +3<CR>',vim.keybinds.opts)
-vim.keybinds.gmap('n', '<S-l>', ':vertical resize -3<CR>',vim.keybinds.opts)
+vim.keybinds.gmap('n', '<C-j>', ':resize +3<CR>',vim.keybinds.opts)
+vim.keybinds.gmap('n', '<C-k>', ':resize -3<CR>',vim.keybinds.opts)
+vim.keybinds.gmap('n', '<C-h>', ':vertical resize +3<CR>',vim.keybinds.opts)
+vim.keybinds.gmap('n', '<C-l>', ':vertical resize -3<CR>',vim.keybinds.opts)
 -- 新标签页
 vim.keybinds.gmap('n', '<Leader>t', ':tabnew',vim.keybinds.opts)
 

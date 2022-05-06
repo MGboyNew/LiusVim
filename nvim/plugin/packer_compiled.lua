@@ -139,11 +139,6 @@ _G.packer_plugins = {
     path = "/home/lius/.local/share/nvim/site/pack/packer/start/doom-one.nvim",
     url = "https://github.com/NTBBloodbath/doom-one.nvim"
   },
-  ["fidget.nvim"] = {
-    loaded = true,
-    path = "/home/lius/.local/share/nvim/site/pack/packer/start/fidget.nvim",
-    url = "https://github.com/j-hui/fidget.nvim"
-  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/lius/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -254,11 +249,6 @@ _G.packer_plugins = {
     path = "/home/lius/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  tagbar = {
-    loaded = true,
-    path = "/home/lius/.local/share/nvim/site/pack/packer/start/tagbar",
-    url = "https://github.com/preservim/tagbar"
-  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/lius/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -283,11 +273,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/lius/.local/share/nvim/site/pack/packer/start/vim-vsnip",
     url = "https://github.com/hrsh7th/vim-vsnip"
-  },
-  vimade = {
-    loaded = true,
-    path = "/home/lius/.local/share/nvim/site/pack/packer/start/vimade",
-    url = "https://github.com/TaDaa/vimade"
   },
   vimcdoc = {
     loaded = true,
