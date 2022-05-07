@@ -53,7 +53,7 @@ local init_function = function()
       requires = { {'nvim-lua/plenary.nvim'} }
    }
 
-   use {"rcarriga/nvim-notify"}
+   -- use {"rcarriga/nvim-notify"}
 
    --use{
    --    'vim-telescope/telescope.nvim',

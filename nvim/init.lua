@@ -33,7 +33,7 @@ require('conf/nvim-lastplace-config')
 require('conf/nvim-colorizer-config')
 
 require('conf/nvim-undotree-config')
-require('conf/nvim-notify-config')
+-- require('conf/nvim-notify-config')
 
 -- statusline
 require('conf/nvim-lualine-config')
