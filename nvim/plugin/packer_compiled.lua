@@ -209,6 +209,11 @@ _G.packer_plugins = {
     path = "/home/lius/.local/share/nvim/site/pack/packer/start/nvim-lastplace",
     url = "https://github.com/ethanholz/nvim-lastplace"
   },
+  ["nvim-lint"] = {
+    loaded = true,
+    path = "/home/lius/.local/share/nvim/site/pack/packer/start/nvim-lint",
+    url = "https://github.com/mfussenegger/nvim-lint"
+  },
   ["nvim-lsp-installer"] = {
     loaded = true,
     path = "/home/lius/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer",

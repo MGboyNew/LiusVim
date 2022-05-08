@@ -27,6 +27,7 @@ local init_function = function()
 
    use"williamboman/nvim-lsp-installer"
    use"tami5/lspsaga.nvim"
+   use {"mfussenegger/nvim-lint"}
 
    use {"sbdchd/neoformat"}
 

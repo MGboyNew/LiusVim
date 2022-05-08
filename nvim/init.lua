@@ -12,6 +12,7 @@ require('conf/nvim-lspsaga-config')
 -- require('conf/nvim-fidget-config')
 require('conf/nvim-lsp_signature-config')
 require('conf/nvim-cmp-config')
+require('conf/nvim-lint-config')
 require('conf/nvim-neoformat-config')
 require('conf/nvim-vista-config')
 
