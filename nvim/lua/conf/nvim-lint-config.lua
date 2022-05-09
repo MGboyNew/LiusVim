@@ -1,8 +1,8 @@
 
 require("lint").linters_by_ft = {
-    python = {"pylint"}
-    -- javascript = {"eslint"},
-    -- typescript = {"eslint"},
+    python = {"pylint"},
+    javascript = {"eslint"},
+    typescript = {"eslint"},
     -- go = {"golangcilint"}
 }
 
