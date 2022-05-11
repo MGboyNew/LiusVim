@@ -114,11 +114,6 @@ _G.packer_plugins = {
     path = "/home/lius/.local/share/nvim/site/pack/packer/start/cmp-spell",
     url = "https://github.com/f3fora/cmp-spell"
   },
-  ["cmp-tabnine"] = {
-    loaded = true,
-    path = "/home/lius/.local/share/nvim/site/pack/packer/start/cmp-tabnine",
-    url = "https://github.com/tzachar/cmp-tabnine"
-  },
   ["cmp-under-comparator"] = {
     loaded = true,
     path = "/home/lius/.local/share/nvim/site/pack/packer/start/cmp-under-comparator",
