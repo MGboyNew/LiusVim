@@ -65,14 +65,12 @@ vim.keybinds.gmap("i", "<A-k>", "<up>", vim.keybinds.opts)
 vim.keybinds.gmap("i", "<A-j>", "<down>", vim.keybinds.opts)    
 vim.keybinds.gmap("i", "<A-h>", "<left>", vim.keybinds.opts)    
 vim.keybinds.gmap("i", "<A-l>", "<right>", vim.keybinds.opts)
--- 文件目录
-vim.keybinds.gmap('n', '<C-b>', ':NvimTreeToggle<CR>',vim.keybinds.opts)
-
--- 标签目录
---vim.keybinds.gmap('n', '<C-t>', ':TagbarToggle<CR>',vim.keybinds.opts)
 
 -- 用H和L代替^$
 vim.keybinds.gmap("n", "H", "^", vim.keybinds.opts)
 vim.keybinds.gmap("v", "H", "^", vim.keybinds.opts)
 vim.keybinds.gmap("n", "L", "$", vim.keybinds.opts)
 vim.keybinds.gmap("v", "L", "$", vim.keybinds.opts)
+
+-- 文件目录
+vim.keybinds.gmap('n', '<C-b>', ':NvimTreeToggle<CR>',vim.keybinds.opts)

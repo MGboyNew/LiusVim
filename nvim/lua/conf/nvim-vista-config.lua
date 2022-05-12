@@ -14,4 +14,4 @@ let g:vista#renderer#icons = {
 )
 
 -- 打开大纲预览
-vim.keybinds.gmap("n", "<C-v>", "<cmd>Vista!!<CR>", vim.keybinds.opts)
+vim.keybinds.gmap("n", "<C-t>", "<cmd>Vista!!<CR>", vim.keybinds.opts)

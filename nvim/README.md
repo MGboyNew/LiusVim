@@ -1,4 +1,17 @@
+### START
+1. 克隆仓库
+2. 安装[packer](https://github.com/wbthomason/packer.nvim)
+    注意:telescope 手动安装依赖 fd 和 ripgrep
+
+    sudo apt install pylint
+    sudo yay  -Ss python3-autopep8
+    npm install -g lua-fmt
+    npm install -g prettier
+
+### 目录结构说明
+
 /home/lius/.config/nvim
+
 ├── init.lua
 ├── ftplugin/
 ├── lint/

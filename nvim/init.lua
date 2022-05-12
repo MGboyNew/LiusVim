@@ -19,10 +19,10 @@ require('conf/nvim-vista-config')
 --require('lsp/nvim-nvim-cmp-config')
 
 require('conf/nvim-tree-config')
-
 require('conf/nvim-indent-blankline-config')
-
 require('conf/nvim-treesitter-config')
+require('conf/nvim-illuminate-config')
+
 
 -- require('plugin-config/nvim-nvim-ts-rainbow-config')
 require('conf/nvim-bufferline-config')
