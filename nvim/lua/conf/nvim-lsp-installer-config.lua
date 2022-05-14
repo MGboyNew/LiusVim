@@ -21,6 +21,7 @@ local servers = {
     zeta_note = require("lsp.zeta_note"),
     -- sqls = require("lsp.sqls"),
     vuels = require("lsp.vuels"),
+    lemminx = require("lsp.lemminx"),
     -- c https://ttys3.dev/post/neovim-c-cpp-lsp-integration-tips/
 }
 
