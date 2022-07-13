@@ -1,8 +1,10 @@
 vim.g.mapleader = ' '
 -- 高亮
-vim.o.filetype = "plugin"
+-- vim.o.filetype = "plugin"
+vim.o.incsearch = true
 vim.o.hlsearch = true
 vim.o.relativenumber = true
+vim.o.mouse = 'a'
 
 -- 搜索
 vim.o.incsearch = true
@@ -11,11 +13,6 @@ vim.o.ignorecase = true
 -- 下划线和编辑竖线
 vim.o.cursorline = true
 vim.o.cursorcolumn = false
-
---  缩进
-vim.o.tabstop = 4
-vim.o.shiftwidth = 4
-vim.o.expandtab = 4
 
 -- 折叠
 vim.o.smartindent = true
@@ -28,12 +25,19 @@ vim.o.termguicolors = true
 vim.o.autoread = true
 vim.o.autowrite = true
 
--- 基本配置
-vim.o.ai = true
-vim.o.cindent = true
-vim.o.si = true
-vim.o.wrap = true
-vim.o.sw = 4
+--  缩进 ,tabstop表示缩进宽度,shiftwidth表示一般模式和可视模式的缩进,expandtab表示将\t换为\s(空格) [http://xstarcd.github.io/wiki/vim/vim_indent.html]
+vim.o.tabstop = 2
+vim.o.shiftwidth = 2
+vim.o.expandtab = true
+vim.o.ai = true -- autoindent
+vim.o.smartindent = true
+
+vim.cmd [[filetype indent on]]
+-- vim.o.si = true
+-- vim.o.sw = 4
+
+
+vim.o.wrap = true -- 允许换行
 
 -- 代码折叠
 vim.cmd [[set foldenable]]
@@ -59,6 +63,10 @@ vim.cmd [[set scrolloff=3]]
 
 vim.cmd [[set nobackup]]
 vim.cmd [[set noswapfile]]
+vim.cmd [[set helplang=cn]]
+
+vim.cmd [[set guifont=dejaVu\ Sans\ MONO\ 10]]
+vim.cmd [[set clipboard+=unnamed]]
 
 
 -- 自动加载
