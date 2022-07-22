@@ -23,6 +23,7 @@ local servers = {
     vuels = require("lsp.vuels"),
     lemminx = require("lsp.lemminx"),
     emmet_ls = require("lsp.emmetls"),
+    tailwindcss = require("lsp.tailwindcss"),
     -- c https://ttys3.dev/post/neovim-c-cpp-lsp-integration-tips/
 }
 
