@@ -1,5 +1,3 @@
 ### LiusVim
 
-this is my vim config file. Now, I building vim. The .vimrc file that you see is my current configuration file,It's not good enough,as it puts everything together.It meets my needs now and I will continue to modify it if there are problems in the future.
-
-
+这是我的neovim的配置文件, 现在使用的是front这个分支下的.也就这个比较的工整,如果你是用来写前端,使用front分支就好.
